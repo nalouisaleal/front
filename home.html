@@ -1,35 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>Document</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-    <div class="navbar">
-        <div>
-          <nav>
-              <ul>
-              <li><img src="logo.png"></li>
-              <li>
-               <form action="https://www.google.com/search" method="get" class="search-bar"> 
-               <input type="text" placeholder="search">
-               <button type="submit"><img src="lupa.png" >
-               </form>
-               </li> 
-              <li><a href=# class="colortext container flex">Produtos</a></li>
-              <li><a href=# class="colortext container flex">Carrinho</a></li>
-              <li><a href=# class="colortext container flex">Desenvolvedores</a></li>
-              <li><a href=# class="colortext container flex"><img src="user.png"></a></li>
-              </ul>
-          </nav>
+
+    <!--barra de menu-->
+    <header class="flex">
+        <a href="#" class="logo"><img src="logo.png" alt="logo"></a>
+        <ul class="navmenu flex">
+            <li>
+                <form action="https://www.google.com/search" method="get" class="search-bar"> 
+                    <input type="text" placeholder="search">
+                    <button type="submit"><i class='bx bx-search'></i></button>
+                </form>
+            </li>
+        </ul>
+        <ul class="navmenu flex">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Carrinho</a></li>
+            <li><a href="#">Desenvolvedores</a></li>
+        </ul>
+        <div class="nav-icon flex">
+            <a href="#"><i class='bx bx-user-circle'></i></a>
         </div>
-        <div class="box">
-         </div>
-         <div class="footer">
-         </div>
-      </div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!--foto grande com exto em cima-->
+    <section class="main-home">
+        <div class="main-text">
+            <h5>Viva CTI 2023</h5>
+            <h1>Transforme seus instantes<br> em memórias duradouras</h1>
+            <p> Aproveite cada clique, pois cada momento é único!</p>
+
+            <a href="#" class="main-btn"> shop now</a>
+        </div>
+    </section>
+
+    <div class="page-title">SORRIA, CLICK E ETERNIZE</div>
+
+    <!--fotinhas-->
+    <section class="update-news">
+        <!--<div class="up-center-text">
+            <h2>new updates</h2>
+        </div>-->
+
+        <div class="update-cart">
+
+        <div class="cart">
+            <img src="f1.png" alt="fotinha">
+            <!--<h5>26 jan 2023</h5>
+            <h4>lets start bring sale on this summer vacation</h4>-->
+            <p>Nossos produtos são perfeitos para presentear e compartilhar a alegria dos momentos especiais com seus entes queridos.</p>
+        
+           
+        </div>
+
+        <div class="cart">
+            <img src="f2.jpeg" alt="fotinha">
+            <!--<h5>26 jan 2023</h5>
+            <h4>lets start bring sale on this summer vacation</h4>-->
+            <p>Com cores vibrantes e detalhes nítidos, nossas fotos polaroid são a maneira
+             perfeita de reviver seus momentos favoritos.</p>
+        
+            
+        </div>
+
+        <div class="cart">
+            <img src="f3.jpeg" alt="fotinha">
+            <!--<h5>26 jan 2023</h5>
+            <h4>lets start bring sale on this summer vacation</h4>-->
+            <p> A nostalgia encontra a inovação com nossos produtos de fotografia instantânea. 
+            Cada foto polaroid é uma cápsula do tempo que evoca sorrisos e lembranças.</p>
+        </div>
+
+    </div>
+    </section>
+
+
+    <!--rodapé-->
+    <section class="contact">
+        <div class="contact-info">
+            <div class="first-info">
+                <img src="logo.png" alt="">
+                <p>Colégio Técnico Industrial "Prof. Isaac Portal Roldán" </p>
+                <p>Av. Nações Unidas, 58-50 - Núcleo Residencial <br> Presidente Geisel - Bauru/SP</p>
+                <p>clickfun2023@gmail.com</p>
+
+                <div class="social-icon">
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+            </div>
+
+            <div class="second-info">
+                <h4>support</h4>
+                <p>Contact us</p>
+                <p>Home</p>
+                <p>Desenvolvedores</p>
+                <p>Produtos</p>
+                <p>Login</p>
+            </div>
+
+            <div class="third-info">
+                <h4>shop</h4>
+                <p>Polaroids</p>
+                <p>Polaroids</p>
+                <p>Polaroids</p>
+                <p>Polaroids</p>
+                <p>Desconto</p>
+            </div>
+
+            <div class="fourth-info">
+                <h4>company</h4>
+                <p>About</p>
+                <p>Patrocinadores</p>
+                <p>Cadastre-se</p>
+                <p>Login</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="end-text">
+        <p>Copyright © @2023. All Rights Reserved.Designd By ClickFun.</p>
+    </div>
+
+    <script src="java.js"></script>
+    
 </body>
 </html>
